@@ -1,6 +1,6 @@
 # Dev City 🎮
 
-Pequeno projeto de estudo desenvolvido acompanhando uma videoaula,
+Pequeno projeto de estudo desenvolvido
 com uma interface de seleção de personagens inspirada em GTA.
 
 O objetivo foi praticar HTML, CSS e JavaScript, além de explorar
@@ -39,35 +39,4 @@ caso seja solicitada.
 O projeto não exige instalação de dependências com npm
 nem configuração de um backend próprio.
 
-## Status da integração com IA
 
-A integração está em fase de testes e ainda precisa de
-validação completa da geração e da exibição da imagem.
-
-Seu funcionamento depende de acesso à internet, autenticação
-no Puter e disponibilidade de uso na conta.
-
-A transparência do fundo e o enquadramento da imagem gerada
-também precisam ser verificados.
-
-## Aprendizados
-
-- Organização de arquivos HTML, CSS, JavaScript e imagens.
-- Manipulação de elementos da página com JavaScript.
-- Uso de eventos para responder às ações do usuário.
-- Leitura de arquivos locais com FileReader.
-- Uso de async/await e integração com serviços externos.
-
-## Próximas melhorias
-
-- Validar o fluxo completo de transformação da foto.
-- Exibir um indicador durante a geração.
-- Tratar erros e cancelamento da seleção de arquivo.
-- Melhorar a adaptação do layout para telas menores.
-
-## Créditos
-
-Projeto desenvolvido para estudo a partir de uma videoaula.
-
-Tema visual inspirado na série Grand Theft Auto,
-da Rockstar Games.
