@@ -1,0 +1,80 @@
+* {
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: "Bangers", system-ui;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.character-name{
+    color: #ff3cac;
+    font-size: 360px;
+    position: absolute; /* vai ficar absolutamente onde eu quero */
+    bottom: 400px;
+    text-align: center;
+    width: 100%;
+}
+
+.character-photo{
+    position: absolute;
+    bottom: 0;
+    height: 700px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+
+.text {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.t1 {
+    font-size: 26px;
+    color: #ffd319;
+}
+
+.t2 {
+    font-size: 72px;
+    color: #fff;
+}
+
+.t3 {
+    font-size: 14px;
+    color: #fff;
+}
+
+.icons{
+    position: absolute;
+    bottom: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px; /* espaçamento */
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover; /* como a imagem vai se encaixar*/
+    object-position: top; 
+    border: 2px solid #fff;
+}
+
+.you{
+    background-color: #ffd319;
+    padding: 20px;
+    border-radius: 50%;
+}
